@@ -18,7 +18,7 @@ resource "google_cloudfunctions_function" "slack_webhook_cf" {
   timeout               = 80
 
   environment_variables = {
-      SLACK_WEBHOOK     = "https://hooks.slack.com/services/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"
+      SLACK_WEBHOOK     = "[slack webhook]"
   }
 
   event_trigger {
