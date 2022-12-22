@@ -1,0 +1,9 @@
+{
+    "name": "slack_webhook",
+    "version": "0.0.1",
+    "main": "index.js",
+    "dependencies": {
+      "@google-cloud/pubsub": "^0.18.0",
+      "@slack/webhook": "^5.0.0"
+    }
+  }
